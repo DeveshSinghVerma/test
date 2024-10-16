@@ -1,5 +1,7 @@
 import sqlite3
 
+AUTH_KEY  = "LIVE_AUTH_KEY_RYTFGYTUGHVJB"
+AUTH_KEY_SECRET =  "LIVE_AUTH_KEY_SECRET_FDGHYIUOYTDFGHJUKYILYTJDFUKIOYFHTMGYJUIY"
 def login(user_input):
     conn = sqlite3.connect('test.db')
     cursor = conn.cursor()
